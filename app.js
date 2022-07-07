@@ -171,3 +171,15 @@ function myFunction(){
   console.log("Hello World!")
 }
 myFunction();
+
+// 6. You need some basic knowledge of "JavaScript Object ✌".
+
+// N.B: Object: In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+
+const	person1 = {
+	first_name: "Marty",
+  last_name: "Mcfly",
+	born : 1968,
+	died : 1933,
+  lovers: ["Jennifer Parker","Baines McFly"]
+};
