@@ -182,3 +182,18 @@ while (true) {
   i++; 
 }
 ```
+
+<br />
+
+> You need some basic knowledge of "JavaScript Function ✌".
+
+N.B: Function: A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it). There are 3 ways of writing a function in JavaScript: Function Declaration. Function Expression. Arrow Function
+
+```javascript
+// Example of function"
+function myFunction(){
+  console.log("Hello World!")
+}
+myFunction();
+```
+
