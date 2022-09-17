@@ -18,8 +18,53 @@ the value of the variable needs to change, go back and change it to let. Use let
 
 > Examples of const:
 
-```
+```javascript
 const OUR_PLANET = 'Earth';
 const PI = 3.14159;
 const E = 2.71828;
+```
+
+> Examples of let:
+
+```javascript
+let currentYear = 2022;
+let age = 23;
+```
+<br />
+
+> You should know 6 basics of JavaScript condition, like: `<`, `>`, `<=`, `>=`, `==`, `===`, `!=`, `!==` .
+
+### Also, You should know.✨
+1. You should know how to use operators like, `&&` or `||` 🤔
+2. Solid understanding of `if-else`. 
+<br /><br />
+
+> Example of condition
+
+```javascript
+// Examples of condition.
+const person = {
+  name: "Tusar",
+  age: 23,
+};
+
+if (person.name === "Tusar" && person.age === 23) {
+  console.log("You can access this file. Thank you 😊!");
+} else {
+  console.log("You can't.");
+}
+
+if (person.age === 18 || person.age >= 18) {
+  console.log("You can vote!");
+} else {
+  console.log("You can't!");
+}
+
+if (person.age < 13) {
+  console.log("You are child.");
+} else if (person.age <= 19) {
+  console.log("You teenager.");
+} else {
+  console.log("You are adult");
+}
 ```
