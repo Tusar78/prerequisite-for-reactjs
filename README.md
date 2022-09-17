@@ -197,3 +197,18 @@ function myFunction(){
 myFunction();
 ```
 
+<br />
+
+> You need some basic knowledge of "JavaScript Object ✌".
+
+N.B: Object: In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+
+```javascript
+const person1 = {
+  firstName: "Marty",
+  lastName: "Mcfly",
+  born : 1968,
+  died : 1933,
+  lovers: ["Jennifer Parker","Baines McFly"]
+};
+```
