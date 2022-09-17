@@ -155,3 +155,30 @@ let betterWords = storyWords.filter(word => {
 console.log(betterWords); // Now equal: ['Hi', 'By', 'Okay'];
 
 ```
+<br />
+
+> You need some basic knowledge of "JavaScript Loop ✌", like [`for loop`🔸 and `while loop`].
+
+### For loop and while loop.
+N.B: For Loop: A JavaScript for loop executes a block of code as long as a specified condition is true. JavaScript for loops take three arguments: initialization, condition, and increment. The condition expression is evaluated on every loop. A loop continues to run if the expression returns true. <br />
+N.B: While loop: The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
+
+```javascript
+// Example of for loop
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+for (let i = 0; i < days.length; i++) {
+  const element = days[i];
+  console.log(element);
+  // Expected output: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
+}
+
+// Example of while loop
+let i = 1;
+while (true) {
+  console.log(i);  
+  if (i == 5) {
+    break;
+  }
+  i++; 
+}
+```
