@@ -133,4 +133,25 @@ greetings.pop(); // Now equals ['whats up?', 'hello']
 
 greetings.shift(); // Now equals ['hello']
 ```
+<br />
 
+> Example of `includes()` method
+
+N.B: The `includes()` method returns true if an array contains a specified value. The `includes()` method returns false if the value is not found.
+
+```javascript
+// Examples of includes() method
+const colors = ['seaGreen', 'lightGray', 'cyan', 'purple', 'blue'];
+const hasRed = colors.includes('red'); // Expected output: false
+const hasCyan = colors.includes('cyan'); // Expected output: true
+
+// More examples of includes() method
+let storyWords = ['Extremely', 'Literally', 'Actually', 'Hi', 'By', 'Okay'];
+let unnecessaryWords = ['Extremely', 'Literally', 'Actually'];
+
+let betterWords = storyWords.filter(word => {
+  return !unnecessaryWords.includes(word);
+}) 
+console.log(betterWords); // Now equal: ['Hi', 'By', 'Okay'];
+
+```
