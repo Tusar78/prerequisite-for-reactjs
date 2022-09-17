@@ -88,3 +88,22 @@ N.B: Length is a property of arrays in JavaScript that returns or sets the numbe
 const desserts = ["Cake", "Pie", "Brownies"];
 const howManyDesserts = desserts.length; // Expected output: 3
 ```
+
+> Example of `index` and `indexOf()`.
+
+N.B: index: JavaScript arrays are zero-indexed: the first element of an array is at index 0 , the second is at index 1 , and so on — and the last element is at the value of the array's length property minus 1 . JavaScript array-copy operations create shallow copies.
+N.B: indexOf: The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+```javascript
+// Example of indexOf:
+const beasts = ["ant", "bison", "camel", "duck", "bison"];
+const indexOfBison = beasts.indexOf("bison"); // Expected output: 1
+const lastBison = beasts.indexOf("bison", 2); // Expected output: 4
+
+// A function to quick check whether an element exists or not in array.
+const vegetables = ["Squash", "Onions", "Shallots"];
+const quickCheck = (arr, elem) => {
+  return arr.indexOf(elem) != -1;
+};
+const mushrooms = quickCheck(vegetables, "mushrooms"); // Expected output: false;
+```
