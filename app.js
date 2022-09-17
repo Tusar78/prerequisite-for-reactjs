@@ -25,7 +25,7 @@
 // let currentYear = 2022;
 // let age = 23;
 
-// You should know 6 basics of JavaScript condition, like: [<, >, <=, >=, ==, ===, !=, !==].
+// 2 You should know 6 basics of JavaScript condition, like: [<, >, <=, >=, ==, ===, !=, !==].
 
 /** Also, You should know.✨
     ********************** 

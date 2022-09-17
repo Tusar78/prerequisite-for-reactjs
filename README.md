@@ -68,3 +68,23 @@ if (person.age < 13) {
   console.log("You are adult");
 }
 ```
+<br />
+
+> You need some basic knowledge of "JavaScrip Array" ✌.
+
+### Also, You should know some important array methods.✨
+
+1. `length`.
+2. `index`, `indexOf()`.
+3. `push()`.
+4. `pop()`.
+5. `includes()`.  
+
+> Example of length.
+
+N.B: Length is a property of arrays in JavaScript that returns or sets the number of elements in a given array.
+
+```javascript
+const desserts = ["Cake", "Pie", "Brownies"];
+const howManyDesserts = desserts.length; // Expected output: 3
+```
